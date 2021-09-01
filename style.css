@@ -46,7 +46,7 @@ Body {
 /*--landing page--*/
 
 .container-landing {
-  background-image: url("/images/background.jpg");
+  background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
