@@ -157,7 +157,7 @@ footer a:hover {
 
   /*-mobile screen--*/
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     .landing-caption {
       position: absolute;
        align-items: center;
