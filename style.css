@@ -1,0 +1,475 @@
+
+/***Body***/
+Body {
+  font-family: 'raleway' !important;
+  background-color: #E3E4E8;
+}
+
+/***ID Elements**/
+
+#home {
+  column-fill: auto;
+  align-items: center;
+}
+
+.main-logo {
+  width :400px;
+  height:100px;
+  text-align: center;
+}
+
+/*---navigation bar --- */
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #002D5B !important;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #002D5B !important;
+}
+
+.nav-link:hover {
+  font-size:1rem;
+  color: #FF3D1C !important;
+}
+.navbar-toggler{
+  background-color: #E3E4E8;
+}
+
+.navbar-toggler:hover{
+  background-color: #FF3D1C;
+}
+/*-- home--*/
+
+.container-landing {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-home {
+  padding: 8% 10% 10%;
+  
+}
+
+.text-title {
+  text-align :left;
+  color: #002D5B;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "microsoft himalya" !important;
+}
+
+.text-name {
+  text-align :left;
+  color: #FF3D1C;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.text-basic {
+  text-align :left;
+  color: #002D5B;
+  font-size: 1.3rem;
+  font-weight: normal;
+   margin-left: 0%;
+}
+
+.btn1{
+  background-color: #E3E4E8;
+  border: none;
+  text-align: center;
+  align-items: center;
+  color: #002D5B;
+}
+
+.btn1:hover {
+  background-color: #FF3D1C;
+  border: none;
+}
+
+.btn1:focus{
+  background-color: #FF3D1C;
+  outline: none;
+  box-shadow: none;
+  color: #ffffff;
+}
+
+.btn1:active{
+  background-color: #FF3D1C!important;
+  outline: none;
+  box-shadow: none;
+  outline: none;
+  color: #ffffff;
+}
+.btn1:active:focus{
+  background-color: #FF3D1C!important;
+  outline: none;
+  box-shadow: none!important;
+  color: #ffffff;
+}
+
+/* my image*/
+#img1 {
+  width: 350px;
+  height:350px;
+}
+
+.col-mypic {
+  text-align: right;
+}
+
+
+/*--about--*/
+
+.text-light1 {
+  text-align :left;
+  color: #FF3D1C;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 500;
+   margin-left: 0%;
+   font-family: "microsoft himalya";
+
+}
+
+.text-light2 {
+  text-align :left;
+  color: #FF3D1C;
+  font-size: 1.5rem;
+  line-height: 3;
+  font-weight: 500;
+    text-align: center;
+   font-family: "microsoft himalya";
+
+}
+
+
+.container-about {
+  padding: 2% 5% 2%;
+}
+
+#img2 {
+  width: 300px;
+  height: 300px;
+}
+
+.col-mypic2 {
+  padding: 1% 5% 0%;
+  text-align: left;
+}
+
+.col-about {
+  padding: 2% 0% 0%;
+}
+
+
+.favorite-tools {
+  color: #002D5B;
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+#favorite-tools-image {
+  width: 60px;
+  height: 60px;
+}
+
+/*--services and process--*/
+
+.container-services {
+  padding: 2% 5% 2%;
+}
+
+.card-title {
+  text-align :center;
+  color: #FF3D1C;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.card-type {
+  color: #002D5B;
+  font-family:Helvetica !important;
+  font-size: 1rem;
+  font-weight: 500;
+   text-align: center;
+   align-items: center;
+}
+
+.card-description {
+  color: #002D5B;
+  font-size: 1rem;
+  font-weight: 500;
+   text-align: justify;
+}
+
+.card
+{
+  border-radius:0;
+  box-shadow: #FF3D1C;
+}
+
+.card:hover {
+  background : #FF3D1C;
+  border-radius: 5px;
+  border: none;
+  transform: scale(0.9);
+  box-shadow: 0 40px 60px -20px #FF3D1C;
+  transition: all 0.5s ease;
+}
+
+.card:hover h1, .card:hover .card-description, .card:hover .card-title {
+  color: #ffffff;
+}
+
+.card-body {
+  align-items: center;
+  text-align: center;
+}
+
+.container-process {
+  padding: 2% 5% 2%;
+}
+
+.card1 {
+  margin-top: 1%;
+  background-color: #ffffff;
+  padding : 10px; 
+  border: 10px solid #E3E4E8;
+}
+
+/*-- projects--*/
+
+.container-projects {
+  padding: 1% 5% 1%;
+}
+
+.box {
+  padding : 10px;
+}
+
+
+.project-type {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+   text-align: right;
+   align-items: right;
+}
+
+.btn2 {
+  font-size: 0.9rem;
+  border-radius: 30px;
+  background-color: #FF3D1C;
+  border : none;
+  pointer-events: none;
+}
+.btn2:hover{
+  background-color: #FF3D1C;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn2:focus{
+  background-color: #FF3D1C;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn2:active{
+  background-color: #FF3D1C!important;
+  outline: none;
+  box-shadow: none;
+  outline: none;
+}
+.btn2:active:focus{
+  background-color: #FF3D1C!important;
+  outline: none;
+  box-shadow: none!important;
+}
+
+.project-title {
+  text-align :center;
+  color: #FF3D1C;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.project-description {
+  color: #002D5B;
+  font-size: 1rem;
+  font-weight: 500;
+   text-align: justify;
+}
+
+#tools-logo-project {
+  width: 24px;
+  height:24px;
+}
+
+#project-img {
+ width: 100% ;
+ height:100%;
+ align-items: center;
+}
+
+.tools-align {
+  align-items: left;
+  text-align: left;
+}
+
+.btn3{
+  background-color: #E3E4E8;
+  border: none;
+  text-align: center;
+  align-items: center;
+  color:#002D5B
+}
+.btn3:hover{
+  background-color: #FF3D1C;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn3:focus{
+  background-color: #FF3D1C;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn3:active{
+  background-color: #FF3D1C!important;
+  outline: none;
+  box-shadow: none;
+  outline: none;
+}
+.btn3:active:focus{
+  background-color: #FF3D1C!important;
+  outline: none;
+  box-shadow: none!important;
+}
+
+
+/*--contact--*/
+
+.container-contact {
+  padding: 2% 5% 1%;
+}
+
+
+
+.text-light3 {
+
+  text-align :right;
+  color: #002D5B;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.contact-logo {
+  width: auto;
+  height: auto;
+ 
+}
+
+.text-contact {
+  text-align :cen;
+  color: #002D5B;
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 4%;
+}
+.press-logo {
+  width: 32px;
+    height:32px;    
+}
+
+/*** Mobile Screen***/
+
+
+
+@media (max-width: 768px){
+
+  
+.main-logo {
+  width :320px;
+  height:80px;
+  text-align: center;
+}
+
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #002D5B !important;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #002D5B !important;
+  }
+
+  .container-home {
+    padding: 10% 5% 10%;
+  }
+
+  .container-about {
+    padding: 2% 10% 2%;
+  }
+
+  .col-mypic, .col-mypic2 {
+    text-align: center;
+  }
+
+  #img1 {
+    width: 300px;
+    height: 300px;
+    margin-top: 5%;
+  }
+  
+  
+  .favorite-tools {
+    color: #002D5B;
+    font-size: .5rem;
+    line-height: 2;
+    font-weight: normal;
+    margin-top: 5%;
+  }
+  #favorite-tools-image {
+    width: 32px;
+    height:32px;
+  }
+
+  .press-logo {
+    width: 32px;
+      height:32px;    
+  }
+
+.col-contact-mobile{
+  font-size: .5rem;
+}
+
+.text-contact {
+  text-align :center;
+  color: #002D5B;
+  font-size: 0.5rem;
+  line-height: 2;
+  font-weight: normal;
+  padding-top: 4%;
+}
+.project-description {
+
+  text-align: justify;
+
+}
+
+}

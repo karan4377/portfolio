@@ -1,0 +1,174 @@
+
+/***Body***/
+Body {
+  overflow-x: hidden;
+  font-family: 'lato' !important;
+  background-color: #FAF9F9;
+  color : #595559;
+}
+
+/***navbar**/
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+
+}
+
+.navbar-brand img {
+  height : 3.5rem;
+
+}
+
+.navbar-nav li {
+  padding-right : 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FAF9F9 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #000000 !important;
+  padding-top: 0.8rem; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #000000 !important;
+  padding-top: 0.8rem; 
+}
+
+.navbar-toggler:hover{
+  background-color: #595959;
+}
+
+/*--landing page--*/
+
+.container-landing {
+  background-image: url("/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-caption {
+  position: absolute;
+   top:45%;
+   left: 10%;
+   
+}
+
+.landing-caption h1 {
+  font-size: 2.5rem;
+  font-weight:600;
+  letter-spacing:0.3rem;
+  color: #FAF9F9;
+  font-family: 'lato' !important;
+}
+
+.btn-lg {
+  border-width : medium;
+  border-radius: 0px;
+}
+
+
+/*--portfolio--*/
+
+.jumbotron {
+  border-radius :0;
+  padding : 3rem 0 2rem;
+}
+
+.portfolio{
+  overflow:hidden;
+}
+
+h2.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color : #2AB69C;
+  letter-spacing:0.7rem;
+}
+
+.portfolio img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+.portfolio img:hover {
+  transform:scale(1.1);
+}
+
+.row.no-padding [class*=col-] {
+  padding :0;
+}
+
+/*----contact--*/
+
+footer {
+  background-color: #2AB69C;
+  color:#FAF9F9;
+  padding : 1rem 0 1rem;
+}
+
+.text-contact-title {
+  text-align: center;
+  font-size: 2rem;
+  margin : 0 0 1rem;
+
+}
+
+footer a {
+  color:#FAF9F9;
+}
+
+footer a:hover {
+  color:#595959;
+}
+
+.fab {
+  font-size: 2rem;
+  margin : 0 0 .5rem;
+}
+
+.fas {
+  font-size: 2rem;
+  margin : 0 0 .5rem;
+}
+
+.text-contact {
+  color:#FAF9F9;
+}
+
+.text-contact:hover {
+  color:#595959;
+  
+}
+
+ .text-light3 { 
+    color : #FAF9F9;
+    text-align: right;
+    padding-right:5%;
+  }
+
+
+  /*-mobile screen--*/
+
+  @media (max-width: 767px) {
+    .landing-caption {
+      position: absolute;
+       align-items: center;
+
+    }
+    
+    .landing-caption h1 {
+      font-size: 2rem;
+      letter-spacing:0.3rem;
+      color: #FAF9F9;
+      font-family: 'lato' !important;
+    }
+    
+  }
