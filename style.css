@@ -55,9 +55,10 @@ Body {
 
 .landing-caption {
   position: absolute;
-   top:45%;
-   left: 10%;
-   
+   top: 45%;
+   width: 100%;
+   left :0;
+   right : 0;   
 }
 
 .landing-caption h1 {
@@ -78,7 +79,7 @@ Body {
 
 .jumbotron {
   border-radius :0;
-  padding : 3rem 0 2rem;
+  padding : 3rem;
 }
 
 .portfolio{
