@@ -18,7 +18,6 @@ Body {
 
 .navbar-brand img {
   height : 3.5rem;
-
 }
 
 .navbar-nav li {
@@ -156,6 +155,11 @@ footer a:hover {
   /*-mobile screen--*/
 
   @media (max-width: 768px) {
+
+    .navbar-brand img {
+      height : 3rem;
+    }
+
     .landing-caption {
       position: absolute;
        align-items: center;
