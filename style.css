@@ -42,7 +42,7 @@ Body {
   background-color: #595959;
 }
 
-/*--landing page--*/
+/*--landing page tagline title--*/
 
 .container-landing {
   background-image: url("images/background.jpg");
@@ -74,18 +74,14 @@ Body {
 }
 
 
-/*--portfolio--*/
-
-.jumbotron {
-  border-radius :0;
-  padding : 3rem;
-}
+/*--portfolio section--*/
 
 .portfolio{
   overflow:hidden;
 }
 
 h2.heading {
+  font-family: 'clear sans';
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -95,11 +91,15 @@ h2.heading {
 }
 
 .portfolio img {
-  width: 100%;
+  max-width: 100%;
   transition: transform 0.5s ease;
 }
 .portfolio img:hover {
   transform:scale(1.1);
+}
+
+.row.no-padding [class*=col-] {
+  padding: 0;
 }
 
 
@@ -112,9 +112,13 @@ footer {
 }
 
 .text-contact-title {
-  text-align: center;
+  font-family: 'clear sans';
   font-size: 2rem;
-  margin : 0 0 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color : #595959;
+  letter-spacing:0.7rem;
 
 }
 
@@ -167,7 +171,7 @@ footer a:hover {
     }
     
     .landing-caption h1 {
-      font-size: 2rem;
+      font-size: 1.7rem;
       letter-spacing:0.3rem;
       color: #FAF9F9;
       font-family: 'lato' !important;
