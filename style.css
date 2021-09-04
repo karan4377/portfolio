@@ -210,7 +210,7 @@ footer {
   @media (max-width: 768px) {
 
     .navbar-brand img {
-      height : 1.8rem;
+      height : 2rem;
     }
 
     .landing-caption {
