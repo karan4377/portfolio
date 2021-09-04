@@ -39,7 +39,9 @@
   padding-top: 0.8rem; 
 }
 
+
 .navbar-toggler:hover{
+  border: #FAF9F9 1px solid;
   background-color: #595959;
 }
 
