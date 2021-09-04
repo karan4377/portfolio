@@ -106,6 +106,27 @@ h2.heading {
   padding: 0;
 }
 
+/*-overlay effect-*/
+
+.overlay {
+  position: absolute;
+  bottom : 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #FAF9F9;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: #FAF9F9;
+  padding: 10px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.portfolio:hover .overlay {
+  opacity: 1;
+}
+
 
 /*----contact--*/
 
@@ -189,7 +210,7 @@ footer {
   @media (max-width: 768px) {
 
     .navbar-brand img {
-      height : 2.5rem;
+      height : 1.8rem;
     }
 
     .landing-caption {
