@@ -1,6 +1,5 @@
  @font-face {
   font-family: ClearSans; src: url(fonts/ClearSans.ttf);
-
 }
 
 
@@ -132,6 +131,8 @@ h2.heading {
   color: #FAF9F9;
   padding: 10px;
   text-align: center;
+  font-family: 'lato';
+  font-weight: 500;
 }
 
 /* When you mouse over the container, fade in the overlay title */
