@@ -50,6 +50,10 @@ html, body {
 
 /*--about--*/
 
+.container-about {
+  padding: 0;
+}
+
 h2.heading {
   font-family: 'clear sans';
   font-size: 2rem;

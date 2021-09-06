@@ -1,6 +1,6 @@
 
 /***Body***/
-body {
+html, body {
   overflow-x: hidden;
   font-family: 'lato' !important;
   background-color: #FAF9F9;
@@ -15,7 +15,6 @@ body {
   font-size: 1rem;
   font-weight: 700;
   background-color: #2AB69C;
-
 }
 
 .navbar-brand img {
@@ -44,12 +43,21 @@ body {
   border: #FAF9F9 1px solid;
   background-color: #595959;
 }
+
 .container-landing {
   padding: 0;
 }
 
-
 /*--services--*/
+
+
+.card1 {
+  margin : 2rem;
+}
+
+.container-services {
+  padding: 0;
+}
 
 h2.heading {
   font-family: 'clear sans';
@@ -157,12 +165,6 @@ footer {
     text-align: right;
     padding-right:5%;
   }
-
-  /*-services-*/
-
-  .card {
-    margin : 2rem;
-  }
   
   
 
@@ -212,9 +214,4 @@ footer {
       margin-top: 5%;
       margin-bottom: 5%;
     }
-
-    
-
-
-    
   }
