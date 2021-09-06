@@ -5,7 +5,7 @@
 
 /***Body***/
   html, body {
-    width: 100%;
+  width: 100%;
   overflow-x: hidden; 
   background-color: #FAF9F9;
   color : #595559;
@@ -60,15 +60,11 @@
   padding: 0;
 }
 
-.landing-caption {
-  position: absolute;
-   top: 45%;
-   width: 100%;
-   left :0;
-   right : 0;   
+.container-home {
+  padding: 15% 10% 8%;
 }
 
-.landing-caption h1 {
+h1 {
   font-family: 'ClearSans';
   font-size: 2rem;
   font-weight: 700;
@@ -224,10 +220,14 @@ footer {
 
   /*-mobile screen--*/
 
-  @media (max-width: 992px) {
+  @media (max-width: 768px) {
 
     .navbar-brand img {
       height : 2rem;
+    }
+
+    .container-home {
+      margin-top: 80px;
     }
 
     .landing-caption {
