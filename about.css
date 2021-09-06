@@ -1,4 +1,17 @@
 
+
+ @font-face {
+  font-family: Clear sans; src: url('fonts/ClearSans-Bold.ttf'); 
+  font-family: Clear sans; src: url('fonts/ClearSans-BoldItalic.ttf'); 
+  font-family: Clear sans; src: url('fonts/ClearSans-Italic.ttf'); 
+  font-family: Clear sans; src: url('fonts/ClearSans-Light.ttf'); 
+  font-family: Clear sans; src: url('fonts/ClearSans-Medium.ttf'); 
+  font-family: Clear sans; src: url('fonts/ClearSans-MediumItalic.ttf'); 
+  font-family: Clear sans; src: url('fonts/ClearSans-Regular.ttf'); 
+  font-family: Clear sans; src: url('fonts/ClearSans-Thin.ttf'); 
+}
+
+
 /***Body***/
 html, body {
   overflow-x: hidden;
@@ -30,12 +43,12 @@ html, body {
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #000000 !important;
+  color: #595959 !important;
   padding-top: 0.8rem; 
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #000000 !important;
+  color: #595959 !important;
   padding-top: 0.8rem; 
 }
 
