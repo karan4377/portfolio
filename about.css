@@ -1,9 +1,8 @@
-
-
- @font-face {
-  font-family: ClearSans-Bold; src: url('fonts/ClearSans-Bold.ttf'); 
+@font-face {
+  font-family: ClearSans; src: url(fonts/ClearSans.ttf);
 
 }
+
 
 
 /***Body***/
@@ -61,7 +60,7 @@ html, body {
 }
 
 h2.heading {
-  font-family: 'allison';
+  font-family: 'ClearSans';
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -147,7 +146,7 @@ footer {
   .text-footer {
     text-align: center;
     font-size: 1.5rem;
-    font-family: 'clear sans';
+    font-family: 'ClearSans';
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -207,7 +206,7 @@ footer {
 
 
     h2.heading {
-      font-family: 'clear sans';
+      font-family: 'ClearSans';
       font-size: 1.5rem;
       font-weight: 700;
       text-transform: uppercase;
