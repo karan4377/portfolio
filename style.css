@@ -79,6 +79,7 @@ h1 {
   border-width : medium;
   border-radius: 0px;
   font-family: 'Lato';
+  color: #FAF9F9;
 }
 
 
@@ -237,7 +238,7 @@ footer {
 
     }
     
-    .landing-caption h1 {
+   h1 {
       font-size: 1.4rem;
       letter-spacing:0.2rem;
       color: #FAF9F9;
