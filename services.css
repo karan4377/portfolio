@@ -83,7 +83,7 @@ h3{
   text-transform: uppercase;
   text-align: center;
   color : #2AB69C;
-  letter-spacing:0.3rem;
+  letter-spacing:0.1rem;
 }
 
 .services-text {
@@ -200,7 +200,7 @@ footer {
       text-transform: uppercase;
       text-align: center;
       color : #2AB69C;
-      letter-spacing:0.3rem;
+      letter-spacing:0.1rem;
     }
     
     .services-text {
