@@ -222,6 +222,16 @@ footer {
 
   /*-mobile screen--*/
 
+  @media (max-width:1024px) {
+
+    h1 {
+      font-size: 1.4rem;
+      letter-spacing:0.2rem;
+      color: #FAF9F9;
+    }
+    
+  }
+
   @media (max-width: 768px) {
 
     .navbar-brand img {
