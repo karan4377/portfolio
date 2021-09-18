@@ -221,3 +221,41 @@ footer {
       margin-bottom: 5%;
     }
   }
+
+  @media (max-width:992px){
+
+    #img-footer {
+      height : 2.7rem;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+
+  }
+  
+
+  @media(max-width:576px){
+    .navbar-brand img {
+      height : 2rem;
+    }
+
+  }
+
+
+    @media (max-width: 376px) {
+
+    h1 {
+      font-size: 1.3rem;
+      letter-spacing:0.2rem;
+      color: #FAF9F9;
+    }
+
+    .btn-lg {
+      border-width : medium;
+      border-radius: 0px;
+      font-family: 'Lato';
+      color: #FAF9F9;
+      font-size: 1.2rem;
+    }
+
+  }
