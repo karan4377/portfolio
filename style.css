@@ -59,9 +59,10 @@
 .container-landing {
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-home {
@@ -227,6 +228,8 @@ footer {
   /*-mobile screen--*/
 
   @media (max-width:1155px) {
+
+
 
     h1 {
       font-size: 1.4rem;
